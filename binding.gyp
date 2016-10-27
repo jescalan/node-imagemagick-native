@@ -83,7 +83,7 @@
             '<!@(Magick++-config --ldflags --libs)',
           ],
           'cflags': [
-            '<!@(Magick++-config --cflags --cppflags)'
+            '<!@(Magick++-config --cxxflags --cppflags)'
           ],
         }]
       ]
